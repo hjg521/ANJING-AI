@@ -1,0 +1,9 @@
+PyQt5==5.15.10
+cryptography==43.0.1
+appdirs==1.4.4
+ultralytics==8.3.17          # 2025年最新版，支持v8/v10/v11/v12
+mss==9.0.1                   # 跨平台最快截图
+numpy==2.1.2
+torch==2.4.1+cu124           # 如果有NVIDIA显卡，推荐安装CUDA版torch
+# torch==2.4.1+cpu           # 如果无显卡，取消上面一行，启用这行
+opencv-python==4.10.0.84
